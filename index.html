@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap" rel="stylesheet">
+  <style>
+
+.font-exo { font-family: 'Exo', sans-serif; }
+  </style>
+
+<script src="matter.js" defer></script>
+
+  </head>
+  <body class="bg-[#111] text-white ">
+    <main>
+
+
+     
+
+
+  <header class=" flex justify-center items-center " >
+
+
+<div class=" pl-5 pr-5 pt-5 flex justify-between w-[1300px] pointer-events-auto">
+
+    <div class="">
+      <a href="index.html">
+      <svg class=" relative z-20 h-12 cursor-pointer" viewBox="149.533 108.411 150.467 123.365" xmlns="http://www.w3.org/2000/svg">
+        <text style="fill: rgba(51, 51, 51, 0); font-family: VALORANT; font-size: 150px; stroke: rgb(172, 219, 76); white-space: pre;" x="151.402" y="214.953" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">J</text>
+        <text style="fill: rgba(51, 51, 51, 0); font-family: VALORANT; font-size: 150px; stroke: rgb(172, 219, 76); white-space: pre;" x="258.878" y="223.364" dx="-56.075" dy="6.542" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">P</text>
+      </svg>
+    </a>
+    </div>
+
+    <div class="flex justify-around w-20 hidden">
+      <ul>
+        <!-- sun -->
+        <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun ">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </ul>
+
+      <ul>
+        <!-- moon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </ul>
+    </div>
+    </div>
+
+  </header>
+
+  
+  <div class=" z-10 absolute inset-0 hidden md:block" id="wrapper-canvas"></div>
+
+  <section class=" z-20 relative flex h-[500px] items-center justify-center pointer-events-none">
+
+    
+
+
+    <div class=" absolute ml-0 lg:-translate-x-64 sm:-translate-x-34  -translate-x-24 sm:-translate-y-28  -translate-y-28" >
+      <h1 class="lg:text-[64px] sm:text-[44px] text-[34px] font-exo cursor-default ">
+      Jai Prakash
+    </h1>
+      <p class="pb-4 pt-2 lg:text[25px] sm:text-[18px] text-[14px] font-exo italic cursor-default ">Web Developer</p>
+      <div class="group inline-flex items-center">
+
+  <button class="px-4 pointer-events-auto py-2 transform transition-transform duration-300 font-bold text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-lg group-hover:scale-110 group-hover:from-purple-500 group-hover:via-pink-600 group-hover:to-red-600">
+    About Me
+  </button>
+
+  <svg width="100" height="100" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class=" -translate-x-12 h-16 transition-transform transform group-hover:-translate-x-10 group-hover:scale-110">
+    <path d="M9 12L21 12M21 12L18 9M21 12L18 15" stroke="white" stroke-width="1" stroke-linecap="round" fill="none"/>
+  </svg>
+</div>
+
+ 
+</div>
+
+
+
+
+
+
+
+    <!-- Logo section -->
+    
+    <div class=" relative -z-50 ">
+      <svg class="lg:h-[440px] sm:h-[380px] h-[280px]  lg:translate-y-5 md:-translate-y-5 -translate-y-4    cursor-default " viewBox="149.533 108.411 150.467 123.365" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient gradientUnits="userSpaceOnUse" x1="185.288" y1="102.803" x2="185.288" y2="252.336" id="gradient-1" gradientTransform="matrix(0.653234, 0.757155, -0.956248, 0.825, 270.967897, -114.824778)">
+            <stop offset="0" style="stop-color: rgb(160, 66, 230);" />
+            <stop offset="1" style="stop-color: rgb(18, 218, 180);" />
+          </linearGradient>
+          <linearGradient gradientUnits="userSpaceOnUse" x1="252.007" y1="117.756" x2="252.007" y2="267.289" id="gradient-0" gradientTransform="matrix(0.62701, 0.779011, -1.024998, 0.825001, 264.228342, -185.989318)">
+            <stop offset="0" style="stop-color: rgba(10, 97, 234, 0.5);" />
+            <stop offset="1" style="stop-color: rgb(74, 30, 106);" />
+          </linearGradient>
+        </defs>
+        <text style="fill: url('#gradient-1'); font-family: VALORANT; font-size: 150px; white-space: pre;" x="151.402" y="214.953" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">J</text>
+        <text style="fill: url('#gradient-0'); font-family: VALORANT; font-size: 150px; stroke: rgba(0, 0, 0, 0); white-space: pre;" x="258.878" y="223.364" dx="-56.075" dy="6.542" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">P</text>
+      </svg>
+    </div>
+
+
+
+
+    <div class="relative flex flex-col items-center group">
+      <!-- Button -->
+      <button class="mb-10 pointer-events-auto fixed bottom-0 left-1/2 transform -translate-x-1/2 px-4 py-2 font-bold transition-transform duration-300 hover:scale-110 text-white bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-lg hover:from-purple-500 hover:via-pink-600 hover:to-red-600 z-10">
+        Latest Works
+      </button>
+    
+      <!-- SVG -->
+      <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-2 transition-transform duration-300 group-hover:translate-y-1 group-hover:scale-110 z-20">
+        <path d="M12 10L12 21M12 21L9 18M12 21L15 18" stroke="white" stroke-width="1" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+
+
+
+    <!-- Social icons section -->
+    <div class="absolute pr-5 right-4 top-1/2 flex -translate-y-1/2 transform flex-col gap-12">
+      <ul>
+
+        <!-- linkedin -->
+
+        <a  href="https://www.linkedin.com/in/jai-prakash-52b797207/"
+        target="_blank">
+
+        <svg class="h-9 pointer-events-auto text-pink-400 hover:cursor-pointer hover:text-white transform transition-transform duration-300 hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path fill="currentColor" d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+        </svg>
+      </a>
+      </ul>
+      <ul>
+        <!-- twitter -->
+        <a href="https://x.com/Scorching_Meek" target="_blank">
+        <svg class="h-9 pointer-events-auto text-pink-400 hover:cursor-pointer hover:text-white transform transition-transform duration-300 hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+        </svg>
+
+      </a>
+
+      </ul>
+      <ul>
+        <!-- MAIL -->
+        <a href="mailto:jaisjs123@gmail.com" target="_blank">
+        <svg class="h-9 pointer-events-auto text-pink-400 hover:cursor-pointer hover:text-white transform transition-transform duration-300 hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+              fill="currentColor"
+              d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+      </svg>
+    </a>
+      </ul>
+      <ul>
+        <!-- github -->
+         <a href="https://github.com/jai-prakaash" target="_blank" >
+        <svg class="h-9 pointer-events-auto text-pink-400 hover:cursor-pointer hover:text-white transform transition-transform duration-300 hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+          <path
+          fill="currentColor"
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+      </svg>
+
+    </a>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<br>
+<br>
+<br>
+
+<h1 class="text-center mx-auto w-max px-4 py-2 text-4xl"></h1>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+    <script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+
+  </body>
+</html>
